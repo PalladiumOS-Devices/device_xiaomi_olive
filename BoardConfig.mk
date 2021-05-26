@@ -9,6 +9,9 @@ include device/xiaomi/sdm439-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/olive
 
+# Kernel
+TARGET_KERNEL_CONFIG := olive-perf_defconfig
+
 # Partitions
 BOARD_CACHEIMAGE_PARTITION_SIZE := 402653184
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4831838208
