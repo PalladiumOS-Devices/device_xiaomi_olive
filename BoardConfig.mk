@@ -9,6 +9,9 @@ include device/xiaomi/sdm439-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/olive
 
+# Build broken rules
+BUILD_BROKEN_DUP_RULES := true
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
