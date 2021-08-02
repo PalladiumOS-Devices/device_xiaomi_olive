@@ -30,5 +30,8 @@ VENDOR_SECURITY_PATCH := 2021-05-01
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/biometrics/sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
+# Use LOS hals
+OVERRIDE_QCOM_HARDWARE_VARIANT := msm8996-los
+
 # Inherit from the proprietary version
 include vendor/xiaomi/olive/BoardConfigVendor.mk
