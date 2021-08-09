@@ -18,7 +18,7 @@ $(call inherit-product, device/xiaomi/olive/device.mk)
 # Some build flags
 DEVICE_MAINTAINER := deadlylxrd
 TARGET_BOOT_ANIMATION_RES := 720
-TARGET_FACE_UNLOCK := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USES_BLUR := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
 IS_PHONE := true
