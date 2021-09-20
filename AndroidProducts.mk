@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_olive.mk
+    $(LOCAL_DIR)/palladium_olive.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_olive-user \
-    dot_olive-userdebug \
-    dot_olive-eng
+    palladium_olive-user \
+    palladium_olive-userdebug \
+    palladium_olive-eng
